@@ -1,0 +1,13 @@
+[core]
+    editor = codium --wait
+    hooksPath = ~/.config/git/hooks
+[user]
+    name = sequpt
+    email = sequpt@protonmail.com
+    signingKey = FE4ADBEBFD9A2F6D
+[commit]
+    gpgSign = true
+[tag]
+    gpgSign = true
+[push]
+    gpgSign = if-asked
