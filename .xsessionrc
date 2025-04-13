@@ -1,0 +1,8 @@
+#!/bin/sh
+# shellcheck disable=SC1091 # Not following
+# - Sourced during X session startup by `/etc/X11/Xsession.d/40x11-common_xsessionrc`.
+# - Debian specific.
+
+if [ -f "$HOME/.profile" ]; then
+    . "$HOME/.profile"
+fi
